@@ -7,10 +7,9 @@
 <head>
 <meta charset="UTF-8">
 <title>영화가즈아</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<%@ include file="main/header.jsp" %>
-<%@ include file="main/menu.jsp" %>
-<%-- <% response.sendRedirect("Board/list.do"); %> --%>
+<% response.sendRedirect("Board/home.do"); %>
 </body>
 </html>
